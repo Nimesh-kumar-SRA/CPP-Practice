@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int n;
+    cout<<"enter the number : ";
     cin >> n;
     char ch = 'A';
     for (int i = 1; i <= n; i++)
@@ -15,7 +16,7 @@ int main()
             cout << ch;
         }
         cout << endl;
-        ch++;
+        ch+=1;
     }
     return 0;
 }
