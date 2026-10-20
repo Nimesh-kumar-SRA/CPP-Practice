@@ -3,10 +3,12 @@ using namespace std;
 
 int main()
 {
-
-    for (int i = 1; i <= 4; i++)
+    int c;
+    cout<<"enter the number of rows you want to pick : ";
+    cin>>c;
+    for (int i = 1; i <= c; i++)
     {
-        for (int j = 4; j > i; j--)
+        for (int j = c; j > i; j--)
         {
             cout<<" ";
         }
