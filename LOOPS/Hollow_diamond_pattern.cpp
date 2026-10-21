@@ -29,8 +29,8 @@ int main()
             cout<<" ";
         }
         cout<<"*";
-        if (i!=2) {
-            for (int j=0; j< 3-2*i; j++) {
+        if (i!=n-2) {
+            for (int j=n-2; j> 2*i-1; j--) {
                 cout<<" ";
             }
             cout<<"*";
