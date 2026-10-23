@@ -29,8 +29,10 @@ int main()
             cout<<" ";
         }
         cout<<"*";
-        if (i!=n-2) {
-            for (int j=n-2; j> 2*i-1; j--) {
+        if (i!=n-2)
+        {
+            for (int j=0; j< 2*(n-i-2)-1; j++)
+            {
                 cout<<" ";
             }
             cout<<"*";
